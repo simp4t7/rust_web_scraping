@@ -1,0 +1,16 @@
+[package]
+name = "web_scraper_testing"
+version = "0.1.0"
+authors = ["t <simp4t7@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crabler = "0.1.22"
+kuchiki = "0.8.1"
+nipper = "0.1.9"
+reqwest = {version = "0.11.4", features = ["blocking"]}
+scraper = "0.12.0"
+select = "0.5.0"
+soup = "0.5.1"
